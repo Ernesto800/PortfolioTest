@@ -1,0 +1,183 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+
+
+@media (max-width: 767px) {
+
+    header div {
+        width: 174px;
+        height: 383px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header div .encabezado {
+        width: 154px;
+        height: 72px;
+        margin: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content:center;
+    }
+
+    header div .encabezado span {
+        width: 129px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.33px;
+        color: var(--white-color);
+
+    }
+
+    header div .encabezado nav {
+        width: 154px;
+        height: 20px;
+        display: flex;
+        gap: 25.6px;
+    }
+    header div .encabezado nav a img{
+        width: 19.68px;
+        height: 19.20px;
+    }
+
+    header div .imgadam{
+        width: 100%; 
+
+    }
+
+
+    header div .imgadam img{
+        width: 174px;
+        height: 383px;
+        position: relative;
+        object-fit: cover;
+        display: block;
+        z-index: -10;
+        top: -115px;
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+    header div .encabezado {
+        width: 708.49px;
+        height: 23px;
+        margin-left: 30px;
+        margin-top: 29px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+    }
+    header div .encabezado span {
+        width: 172px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -0.44px;
+        color: var(--white-color);
+
+    }
+
+    header div .encabezado nav {
+        width: 192.49px;
+        height: 25px;
+        display: flex;
+        gap: 32px;
+    }
+    header div .encabezado nav a img{
+        width: 24.61px;
+        height: 24px;
+    }
+
+    header div .imgadam .backgroundimg{
+        background-color: #242424;
+        width: 349.85px;
+        height: 486px;
+        position: absolute;
+        z-index: -20;
+        top: -540px;
+        left: 431px;
+
+    }
+
+
+    header div .imgadam img{
+        width: 349.85px;
+        height: 486px;
+        position: absolute;
+        object-fit: cover;
+        display: block;
+        z-index: -10;
+        left: 431px;
+        top: 20px;
+    }
+
+}
+
+@media (min-width: 1440px){
+    header div .encabezado{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    header div span{
+        width: 172px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -0.44px;
+        margin-left: 165px;
+        color: var(--white-color);
+    }
+
+    header div nav{
+        width: 192.49px;
+        height: 25px;
+        margin-right: 194.51px;
+        display: flex;
+        gap: 32px;
+    }
+
+    header div nav a img{
+        width: 24.60px;
+        height: 24px;
+        fill: #4EE1A0 !important;
+        stroke: #4EE1A0 !important;
+    }
+
+    header div .imgadam .backgroundimg{
+        background-color: #242424;
+        width: 445px;
+        height: 720px;
+        position: absolute;
+        z-index: -20;
+        top: -540px;
+        left: 830px;
+
+    }
+
+
+    header div .imgadam img{
+        width: 445px;
+        height: 720px;
+        position: absolute;
+        object-fit: cover;
+        display: block;
+        z-index: -10;
+        left: 830px;
+        top: 0px;
+    }
+
+}
