@@ -1,3 +1,117 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
+@media (max-width: 767px) {
+        footer section div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        footer section .gaming h2{
+             font-family: "Tiny5", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+             margin-left: auto;
+             margin-right: auto;
+        }
+
+        footer section div h3 {
+            color: var(--primary-color);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer section div nav {
+            width: auto;
+            height: auto;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+}
+
+
+@media (min-width: 767px) and (max-width: 1439px) {
+            footer section div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        footer section .gaming h2{
+             font-family: "Tiny5", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+             margin-left: auto;
+             margin-right: auto;
+             font-size: 35px;
+        }
+
+        footer section div h3 {
+            color: var(--primary-color);
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 30px;
+        }
+
+        footer section div nav {
+            width: auto;
+            height: auto;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        footer section div nav a img{
+            width: 40px;
+            height: 40px;
+        }
+}
+
+@media (min-width: 1440px){
+            footer section div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        footer section .gaming h2{
+             font-family: "Tiny5", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+             margin-left: auto;
+             margin-right: auto;
+             font-size: 45px;
+             transition: transform 0.3s ease-in-out;
+        }
+
+        footer section .gaming h2 a{
+            display: inline-block;
+            transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+        footer section .gaming h2 a:hover{
+             color:rgb(228, 52, 87);
+             text-decoration: none;
+             transform: scale(1.1);
+        }
+
+        footer section div h3 {
+            color: var(--primary-color);
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 40px;
+        }
+
+        footer section div nav {
+            width: auto;
+            height: auto;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        footer section div nav a img{
+            width: 50px;
+            height: 50px;
+        }
+
+}
