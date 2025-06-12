@@ -6,12 +6,26 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "scss": "node-sass --watch scss -o css"
   },
   "devDependencies": {
     "vite": "^6.2.0"
   },
   "dependencies": {
     "sass": "^1.86.3"
-  }
+  },
+  "description": "This project is a practice web portfolio created using only HTML and CSS. It serves as a front-end exercise to build and improve skills in web design and responsive layouts. The portfolio showcases a sample design and is not based on any real individual's work. It's intended for learning purposes and experimenting with different HTML structures and CSS styling techniques.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ernesto800/PortfolioTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ernesto800/PortfolioTest/issues"
+  },
+  "homepage": "https://github.com/Ernesto800/PortfolioTest#readme"
 }
